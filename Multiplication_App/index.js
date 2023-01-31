@@ -4,7 +4,7 @@ const correctAns = num1 * num2;
 let score;
 const savedScore = JSON.parse(localStorage.getItem("score"))
 
-if (savedScore){
+if (!savedScore){
   score = 0;
 }else{
   score = savedScore;
