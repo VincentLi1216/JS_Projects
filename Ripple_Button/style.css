@@ -41,7 +41,7 @@ body{
 
 }
 .btn:hover{
-  box-shadow: 0px 4px 8px rgba(255, 69, 0, .3);
+  box-shadow: 0px 4px 8px rgba(255, 69, 0, .5);
 }
 
 .btn span{
